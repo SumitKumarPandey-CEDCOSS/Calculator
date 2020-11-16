@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Layout</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="calc">
+                <h1>Calculator</h1>
+                <input type="text" id="disp" value="">
+                <table id="table">
+                    <tr>
+                        <td><button id="1" onclick="cal(1)">1</button></td>
+                        <td><button onclick="cal(2)">2</button></td>
+                        <td><button onclick="cal(3)">3</button></td>
+                        <td><button onclick="cal('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="cal(4)">4</button></td>
+                        <td><button onclick="cal(5)">5</button></td>
+                        <td><button onclick="cal(6)">6</button></td>
+                        <td><button onclick="cal('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button  onclick="cal(7)">7</button></td>
+                        <td><button  onclick="cal(8)">8</button></td>
+                        <td><button  onclick="cal(9)">9</button></td>
+                        <td><button  onclick="cal('*')">x</button</td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="cal(0)">0</button></td>
+                        <td><button onclick="cal('/')">/</button></td>
+                        <td><button onclick="clr()">C</button></td>
+                    </tr>
+                </table>        
+            </div>
+        </div>
+    </body>
